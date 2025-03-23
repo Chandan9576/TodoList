@@ -16,7 +16,7 @@ function App() {
   }
  
   useEffect(()=>{
-    // console.log(`${count} list is: ${inputValue}`);
+    console.log(`${count} list is: ${inputValue}`);
     document.title = (`Count : ${count}`);
     printValue();
   },[count])
