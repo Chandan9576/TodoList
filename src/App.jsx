@@ -12,7 +12,7 @@ function App() {
   function printValue()
   {
     setList([...list,inputValue])
-    return console.log(`${count} list is: ${inputValue}`);
+    
   }
  
   useEffect(()=>{
